@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/shape_dialog_white"
+    android:orientation="vertical"
+    android:paddingBottom="15dp"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp"
+    android:paddingTop="15dp">
+
+    <!--<ProgressBar-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:indeterminateDrawable="@anim/loading_anim"-->
+    <!--android:indeterminateDuration="700"-->
+    <!--android:visibility="gone" />-->
+    <!--fresco:placeholderImage="@mipmap/load"-->
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/loading"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        fresco:actualImageScaleType="centerCrop"
+        fresco:backgroundImage="@mipmap/load_start"
+        fresco:placeholderImage="@mipmap/load_start"
+        fresco:placeholderImageScaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/tvLoad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:text="正在加载"
+        android:textColor="@color/yello"
+        android:textSize="12sp" />
+
+</LinearLayout>

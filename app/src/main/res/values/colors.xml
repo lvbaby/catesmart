@@ -3,4 +3,39 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="toolbar_bg">#FFFFFF</color>
+    <color name="black">#1E2432</color>
+    <color name="white">#FFFFFF</color>
+    <color name="main_fragment_color">#F5F6F6</color>
+    <color name="navpage">#FFE1E8EB</color>
+    <color name="yello">#FFC300</color>
+    <color name="red">#FA1733</color>
+    <color name="font_red">#FF630E</color>
+
+    <color name="divide">#eeeeee</color>
+
+    <color name="main_bottom_color">#f0f0f0</color>
+    <color name="main_bottom_pressed_color">#e43e3e</color>
+    <color name="main_bottom_text_pressed_color">#FFC300</color>
+
+    <color name="main_bottom_text_color">#666666</color>
+    <color name="text_light_gray">#666666</color>
+
+    <color name="font_title_color">#343F4D</color>
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#4DFFC300</color>
+    <color name="viewfinder_mask_border">#FFC300</color>
+    <color name="possible_result_points">#c0ffff00</color>
+
+    <color name="audio_discuss_bg">#F5F6F6</color>
+    <color name="audio_discuss_divide">#E3E3E3</color>
+    <color name="audio_discuss_font">#737D9D</color>
+    <color name="audio_discuss_font_name">#343F4D</color>
+
+    <color name="course_tab_bg">#599245</color>
+    <color name="bind_text_color">#4A4A4A</color>
+
+    <color name="course_no_sign">#F19600</color>
+    <color name="gray">#ffb7c4d1</color>
 </resources>
